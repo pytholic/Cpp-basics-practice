@@ -16,7 +16,7 @@ int main()
     Composer &comp1 = db.add_composer("Ludwig van", "Beethoven", "Romantic", 1770,
                                       "Beethoven was completely deaf during the latter part of his life - he never "
                                       "heard a performance of his 9th symphony.");
-    // Rememberthe above functio nreturns a reference
+    // Remember the above function returns a reference
     comp1.promote(7);
 
     Composer &comp2 = db.add_composer("Johann Sebastian", "Bach", "Baroque", 1685,

@@ -2,6 +2,8 @@
 composer.h, created by @pytholic on 2023.10.17
 Description: The class for a Composer record.
 */
+#pragma once
+
 const int default_ranking = 10;
 
 class Composer
