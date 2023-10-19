@@ -10,3 +10,4 @@ foreach(SOURCE ${SOURCES})
 endforeach()
 
 add_subdirectory(./composer-database)
+add_subdirectory(./IntList)
